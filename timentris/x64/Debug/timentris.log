@@ -1,0 +1,57 @@
+﻿Build started 30.05.2014 22:12:02.
+     1>Project "C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\timentris.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /arch:AVX /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt Render.cpp
+         Render.cpp
+     1>Render.cpp(291): warning C4018: '<' : signed/unsigned mismatch
+     1>Render.cpp(292): warning C4018: '<' : signed/unsigned mismatch
+     1>Render.cpp(293): warning C4018: '<' : signed/unsigned mismatch
+     1>Render.cpp(317): warning C4018: '<' : signed/unsigned mismatch
+     1>Render.cpp(318): warning C4018: '<' : signed/unsigned mismatch
+     1>Render.cpp(319): warning C4018: '<' : signed/unsigned mismatch
+     1>Render.cpp(343): warning C4018: '<' : signed/unsigned mismatch
+     1>Render.cpp(344): warning C4018: '<' : signed/unsigned mismatch
+     1>Render.cpp(345): warning C4018: '<' : signed/unsigned mismatch
+     1>Render.cpp(369): warning C4018: '<' : signed/unsigned mismatch
+     1>Render.cpp(370): warning C4018: '<' : signed/unsigned mismatch
+     1>Render.cpp(371): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\x64\Debug\timentris.exe" /INCREMENTAL /NOLOGO tinyxml2_debug.lib Shlwapi.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\x64\Debug\timentris.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\x64\Debug\timentris.lib" /MACHINE:X64 x64\Debug\Brick.obj
+         x64\Debug\Camera.obj
+         x64\Debug\Configuration.obj
+         x64\Debug\Cup.obj
+         x64\Debug\Cup3dProjection.obj
+         x64\Debug\GameObject.obj
+         x64\Debug\GLWindow.obj
+         x64\Debug\Input.obj
+         x64\Debug\main.obj
+         x64\Debug\OpenGL.obj
+         x64\Debug\Render.obj
+         x64\Debug\Shader.obj
+         x64\Debug\ShaderProgram.obj
+         x64\Debug\TimentrisGame.obj
+         x64\Debug\Piece.obj
+         x64\Debug\PieceHelper.obj
+         x64\Debug\TransformationMatrices.obj
+         timentris.vcxproj -> C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\x64\Debug\timentris.exe
+       PostBuildEvent:
+         xcopy "C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\shaders\*.*" "C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\x64\Debug\shaders\" /Y /S /E
+         xcopy "C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\pieces\*.*" "C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\x64\Debug\pieces\" /Y /S /E
+         :VCEnd
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\shaders\grid.fs.glsl
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\shaders\grid.gs.glsl
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\shaders\grid.vs.glsl
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\shaders\lesson.fs.glsl
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\shaders\lesson.vs.glsl
+         5 File(s) copied
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\pieces\dot.piece
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\pieces\I.piece
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\pieces\L.piece
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\pieces\reverseL.piece
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\pieces\tesseract2222.piece
+         5 File(s) copied
+     1>Done Building Project "C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\timentris.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.30

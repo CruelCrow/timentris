@@ -1,0 +1,109 @@
+﻿Build started 28.04.2014 23:29:53.
+     1>Project "C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\timentris.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Brick.cpp Configuration.cpp Cup.cpp Cup3dProjection.cpp GLWindow.cpp Input.cpp main.cpp OpenGL.cpp Render.cpp Shader.cpp ShaderProgram.cpp TimentrisGame.cpp winMain.cpp Piece.cpp PieceHelper.cpp
+         TimentrisGame.cpp
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\timentrisgame.cpp(223): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\timentrisgame.cpp(229): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\timentrisgame.cpp(234): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         ShaderProgram.cpp
+         Shader.cpp
+         Render.cpp
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\render.cpp(173): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\render.cpp(184): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\render.cpp(187): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\render.cpp(763): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\render.cpp(766): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         OpenGL.cpp
+         main.cpp
+         detected 'min' macro and undefined it; you may wish to define NOMINMAX before including any windows header
+         detected 'max' macro and undefined it; you may wish to define NOMINMAX before including any windows header
+         Input.cpp
+         GLWindow.cpp
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\glwindow.cpp(283): warning C4244: '=' : conversion from 'LONG' to 'unsigned short', possible loss of data
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\glwindow.cpp(284): warning C4244: '=' : conversion from 'LONG' to 'unsigned short', possible loss of data
+         Configuration.cpp
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\configuration.cpp(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\configuration.cpp(69): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\configuration.cpp(194): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2176): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+                 c:\boost_1_55_0\boost\algorithm\string\detail\classification.hpp(102) : see reference to function template instantiation '_OutIt std::copy<const char*,char*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=char *,
+                     _InIt=const char *
+                 ]
+                 c:\boost_1_55_0\boost\algorithm\string\classification.hpp(206) : see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<CharT>::is_any_ofF<boost::iterator_range<IteratorT>>(const RangeT &)' being compiled
+                 with
+                 [
+                     CharT=char,
+                     IteratorT=const char *,
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 c:\boost_1_55_0\boost\algorithm\string\classification.hpp(206) : see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<CharT>::is_any_ofF<boost::iterator_range<IteratorT>>(const RangeT &)' being compiled
+                 with
+                 [
+                     CharT=char,
+                     IteratorT=const char *,
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\configuration.cpp(155) : see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<CharT> boost::algorithm::is_any_of<const char[2]>(RangeT (&))' being compiled
+                 with
+                 [
+                     CharT=char,
+                     RangeT=const char [2]
+                 ]
+         Generating Code...
+         Compiling...
+         PieceHelper.cpp
+         Piece.cpp
+         winMain.cpp
+         detected 'min' macro and undefined it; you may wish to define NOMINMAX before including any windows header
+         detected 'max' macro and undefined it; you may wish to define NOMINMAX before including any windows header
+         Cup3dProjection.cpp
+         Cup.cpp
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\cup.cpp(128): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\misha\documents\visual studio 2012\projects\timentris\timentris\cup.cpp(129): warning C4018: '>' : signed/unsigned mismatch
+         Brick.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\Debug\timentris.exe" /INCREMENTAL /NOLOGO tinyxml2_debug.lib Shlwapi.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\Debug\timentris.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\Debug\timentris.lib" /MACHINE:X86 Debug\Brick.obj
+         Debug\Configuration.obj
+         Debug\Cup.obj
+         Debug\Cup3dProjection.obj
+         Debug\GLWindow.obj
+         Debug\Input.obj
+         Debug\main.obj
+         Debug\OpenGL.obj
+         Debug\Render.obj
+         Debug\Shader.obj
+         Debug\ShaderProgram.obj
+         Debug\TimentrisGame.obj
+         Debug\winMain.obj
+         Debug\Piece.obj
+         Debug\PieceHelper.obj
+         timentris.vcxproj -> C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\Debug\timentris.exe
+       PostBuildEvent:
+         xcopy "C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\shaders\*.*" "C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\Debug\shaders\" /Y /S /E
+         xcopy "C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\pieces\*.*" "C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\Debug\pieces\" /Y /S /E
+         :VCEnd
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\shaders\grid.fs.glsl
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\shaders\grid.gs.glsl
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\shaders\grid.vs.glsl
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\shaders\lesson.fs.glsl
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\shaders\lesson.vs.glsl
+         5 File(s) copied
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\pieces\dot.piece
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\pieces\I.piece
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\pieces\L.piece
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\pieces\reverseL.piece
+         C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\pieces\tesseract2222.piece
+         5 File(s) copied
+     1>Done Building Project "C:\Users\Misha\Documents\Visual Studio 2012\Projects\timentris\timentris\timentris.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.49
